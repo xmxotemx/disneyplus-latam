@@ -1,0 +1,234 @@
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .container {
+        max-width: $max-width-md;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .text-small {
+        font-size: 15px;
+    }
+
+    #header {
+        &-main {
+            background: $bg-2 no-repeat top center/cover;
+            height: 75vh;
+            padding: 10rem 2rem 5rem;
+
+            .header__content {
+                &-form {
+                    grid-template-columns: 3fr 1fr;
+                    gap: 0;
+
+                    .form {
+                        &-control {
+                            border-radius: 4px 0 0 4px;
+                        }
+
+                        &-button {
+                            border-radius: 0 4px 4px 0;
+                            margin: 0;
+                            font-size: 1rem;
+                            padding: 0.8rem;
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    #home {
+        &__a {
+            .container {
+                padding: 0;
+
+                .disney__content {
+                    position: relative;
+
+                    &-title {
+                        top: 0;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        position: absolute;
+                        top: 1rem;
+                        left: 0;
+                        padding-left: 5vw;
+                        width: 40%;
+                        text-align: start;
+                    }
+                }
+            }
+        }
+
+        &__b {
+            .container {
+
+                .disney__info {
+                    .section-title {
+                        font-size: 22px;
+                    }
+
+                    display: grid;
+                    grid-template-columns:repeat(3, 1fr);
+
+                    &-item {
+                        ul {
+
+                            li {
+                                &:nth-child(2) {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &__d {
+            .container {
+                padding: 3rem 2rem;
+
+                .disney__devices {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+
+                    div {
+                        ul {
+                            li {
+                                &:nth-child(3) {
+                                    padding: 0 2.5rem;
+                                }
+                            }
+                        }
+
+                        &:nth-child(3) {
+                            ul {
+                                li {
+                                    &:nth-child(3) {
+                                        padding: 0;
+                                    }
+                                }
+                            }
+                        }
+
+                        &:nth-child(4) {
+                            ul {
+                                li {
+                                    &:nth-child(3) {
+                                        padding: 0 2rem;
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+
+        }
+    }
+
+    #footer {
+        &-main {
+            .container {
+                .text-small {
+                    font-size: 12px;
+                }
+            }
+        }
+
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    body {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .container {
+        max-width: $max-width-lg;
+    }
+
+    .section-title {
+        font-size: 40px;
+    }
+
+    .text-small {
+        font-size: 16px;
+    }
+
+    #header {
+        &-main {
+            background: $bg-3 no-repeat top center/cover;
+            height: 100vh;
+
+            .header__content {
+                padding: 16rem 20rem 5rem 2rem;
+                align-items: flex-start;
+
+                p {
+                    text-align: start;
+                    line-height: 1.2;
+                }
+
+                &-form {
+                    width: 80%;
+                    display: grid;
+                    grid-template-columns: 3fr 1fr;
+                    gap: 0;
+                    margin-bottom: 1rem;
+
+                    .form {
+                        &-control {
+                            border-radius: 4px 0 0 4px;
+                        }
+
+                        &-button {
+                            border-radius: 0 4px 4px 0;
+                            margin: 0;
+                            font-size: 1rem;
+                            padding: 0.8rem;
+                        }
+                    }
+                }
+
+                &-down {
+                    margin: .5rem auto 0 0;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    .container {
+        max-width: $max-width-xl;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .container {
+        max-width: $max-width-xxl;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .container {
+        max-width: 1620px;
+    }
+
+}

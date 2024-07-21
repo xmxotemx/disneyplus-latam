@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" property="description"
+        content="Disney, Marvel, Pixar, Star Wars, National Geographic ve çok daha fazlasının adresi. En iyi dizi, film ve orijinal içeriklerin hepsi burada, bir arada.">
+    <link rel="icon" type="image/png" sizes="32x32" href="./public/img/favicon-32x32.png">
+    <link rel="stylesheet" href="./public/css/main.css">
+    <title>Disney+ | Ver peliculas, series y deportes</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header-main" class="bg-secondary">
+        <div class="container">
+            <!-- Navbar-Main -->
+            <nav class="navbar" id="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="" class="nav-link ">
+                            <img src="./public/img/logo.svg" class="navbar-brand">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link btn-primary">Şimdi Üye Ol</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="signIn.html" class="nav-link btn-secondary ">REGISTRARME</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <!-- Header-Content -->
+            <div class="header__content text-center">
+                <p class="section-title">Hay un nuevo Disney+<br>
+                    donde todo se encuentra</p>
+                <p class="lead">¡Disfruta de 3 meses gratis al contratar!</p>
+                <p class="lead">Estrenos de películas, clásicos, sagas, comedias animadas y producciones originales de Star, además de los deportes y programas en vivo de ESPN.</p>
+                <form class="header__content-form">
+                    <input type="email" name="" id="input1" class="form-control" placeholder="E-mail" required>
+                    <button id="btn1" class="form-button btn-primary">REGISTRARME</button>
+                </form>
+                <p class="lead"></p>
+                <div class="text-small lead">
+                    *Podrás modificarlo o cancelarlo cuando quieras.
+                </div>
+                
+                <div class="header__content-down">
+                    <a href="#home__a" style="color: #fff;">
+                        <svg class="down" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                            <rect width="48" height="48" fill="none" />
+                            <path
+                                d="M36.63,18.37a1.37,1.37,0,0,1,2.15.37,1.7,1.7,0,0,1-.3,2.06L25.4,32.64a1.37,1.37,0,0,1-1.85,0l-13-11.84a1.71,1.71,0,0,1-.29-2.06,1.37,1.37,0,0,1,2.15-.37l12.11,11ZM24.25,31.42a.38.38,0,0,1,.46,0l-.23-.21ZM11.71,19.55s0,.06,0,0Zm25.61,0h0Z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+       <br> <!-- Section A -->
+        <section id="home__a" class="text-center bg-secondary">
+            <div class="container">
+                <div class="disney__content">
+                    <div class="disney__content-title">
+                        <h1 class="section-title">Solo en Disney+</h1>
+                        <p class="lead">¡Las mejores producciones originales y exclusivas!</p>
+                    </div>
+                    <picture>
+                        <source media="(max-width:768px)" srcset="./public/img/bg2-sm.jpg">
+                        <img src="./public/img/bg2-md-lg.jpg" alt="">
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <!-- Section B -->
+        <section id="home__b" class="text-center bg-secondary">
+            <div class="container">
+                <div>
+                    <h1 class="section-title">¡Aprovecha hoy de 3 meses gratis de Disney+!</h1>
+                    <p class="lead">Estrenos de películas, clásicos, sagas, comedias animadas y producciones originales de Star, además de los deportes y programas en vivo de ESPN.
+                    </p>
+                </div>
+                <picture>
+                    <source media="(max-width:768px)" srcset="./public/img/bg3-sm.jpg">
+                    <img src="./public/img/bg3-lg.jpg" alt="">
+                </picture>
+                <div class="disney__info">
+                    <div class="disney__info-item">
+                        <ul>
+                            <li><img src="./public/img/movie.png" alt=""></li>
+                            <li>
+                                <h3 class="section-title">Diversión sin fin</h3>
+                            </li>
+                            <li>
+                                <p class="lead">Descubre miles de horas de series de televisión, películas y contenidos originales.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="disney__info-item">
+                        <ul>
+                            <li><img src="./public/img/device.png" alt=""></li>
+                            <li>
+                                <h3 class="section-title">En tus dispositivos favoritos</h3>
+                            </li>
+                            <li>
+                                <p class="lead">Mira tu contenido favorito hasta en 4 dispositivos a la vez.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="disney__info-item">
+                        <ul>
+                            <li><img src="./public/img/users.png" alt=""></li>
+                            <li>
+                                <h3 class="section-title">Controles parentales fáciles de usar</h3>
+                            </li>
+                            <li>
+                                <p class="lead">Mantén a salvo a tu familia con nuestros controles parentales fáciles de usar.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section C -->
+        <section id="home__c" class="bg-secondary">
+            <div class="container">
+                <h2 class="section-title">Preguntas frecuentes</h2>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <input type="radio" name="accordion-check" id="first" class="accordion-input">
+                        <label for="first" class="accordion-label">¿Que incluye Disney+?</label>
+                        <div class="accordion-body">
+                            <p class="lead">Beneficios de la suscripción a Disney+:
+
+                                </p>
+                            <ul>
+                                <li>
+                                    <p class="lead">
+                                        Primer pago al terminar tus 3 meses gratis.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="lead">
+                                        Estrenos de películas, series originales y clásicos de Disney, Pixar, Marvel, Star Wars, National Geographic y Star.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="lead">
+                                        Los torneos más importantes del mundo y programas de ESPN en vivo.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="lead">
+                                        Hasta 4 pantallas a la vez con Disney+ Premium; y hasta 2 con Disney+ Estándar.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="lead">Descarga de títulos, creación de perfiles y control parental para personalizar la experiencia por edad según tu plan.</p>
+                                </li>
+                                <!--<li>
+                                    <p class="lead">Aynı anda 4 ekranda izleme imkanı</p>
+                                </li>
+                                <li>
+                                    <p class="lead">
+                                        GroupWatch özelliğiyle altı arkadaşınla sanal izleme partileri düzenleme imkanı
+                                    </p>
+                                </li>-->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <input type="radio" name="accordion-check" id="second" class="accordion-input">
+                        <label for="second" class="accordion-label">¿Cómo puedo pagar?</label>
+                        <div class="accordion-body">
+                            <p class="lead">Podrás pagar con tarjeta de crédito, débito, PayPal, Mercado Pago o también a través de terceros, como Google Play Store, App Store de Apple, Mercado Libre y proveedores locales de TV, telefonía e internet.</p>
+                            <ul>
+                              <!--  <li>
+                                    <p class="lead">
+                                        Disney’den “Cruella” ve “Enkanto” gibi gişe rekorları kıran, en yeni canlı
+                                        aksiyon ve animasyon filmleri
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="lead">
+                                        Pixar’ın dahi yaratıcılarından, her yaştan izleyici için “Luka” ve “Soul” gibi
+                                        iç ısıtan hikayeler
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="lead">
+                                        Marvel Studios’dan mutlaka görülmesi gereken “Loki”, “Hawkeye” ve “WandaVision”
+                                        gibi orijinal içerikler
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="lead">“Obi-Wan Kenobi” ve “The Mandalorian” gibi çok çok uzak bir
+                                        galaksiden destansı hikayeler</p>
+                                </li>
+                                <li>
+                                    <p class="lead">Korkusuz National Geographic kaşifleri eşliğinde aydınlatıcı
+                                        belgeseller</p>
+                                </li>
+                                <li>
+                                    <p class="lead">
+                                        Herkesin konuştuğu “The Dropout”, “How I Met Your Father” gibi orijinal
+                                        içerikler ve bir solukta yeniden izlenebilecek “How I Met Your Mother” ve “The
+                                        Walking Dead” gibi dünyaca ünlü fenomen diziler
+                                    </p>
+                                </li>
+                            </ul>-->
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <input type="radio" name="accordion-check" id="third" class="accordion-input">
+                        <label for="third" class="accordion-label">¿Dónde puedo ver Disney+?</label>
+                        <div class="accordion-body">
+                            <p class="lead">La aplicación de Disney+ está disponible en tu dispositivo móvil, navegador web, consola de videojuegos, decodificador y Smart TV.</p>
+                        </div>
+                    </div>
+                    <!--<div class="accordion-item">
+                        <input type="radio" name="accordion-check" id="fourth" class="accordion-input">
+                        <label for="fourth" class="accordion-label">Hangi cihazlar destekleniyor?</label>
+                        <div class="accordion-body">
+                            <p class="lead">Disney+; mobil cihazlar, web tarayıcıları, oyun konsolları, set üstü kutular
+                                ve smart TV’leri destekler. Tam liste için <span><a
+                                        href="https://help.disneyplus.com/csp?id=csp_article_content&article=devices-supported"
+                                        style="color: #fff; text-decoration: underline;">buraya</a></span>
+                                tıkla.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <input type="radio" name="accordion-check" id="fifth" class="accordion-input">
+                        <label for="fifth" class="accordion-label">Disney+ üyeliği taahhüt gerektiriyor mu?</label>
+                        <div class="accordion-body">
+                            <p class="lead">Disney+ üyeliği hiçbir taahhüt gerektirmez ve mevcut faturalandırma
+                                döneminin bitiminden itibaren geçerli olmak kaydıyla üyeliğini dilediğin zaman iptal
+                                edebilirsin. Aşağıdaki 5 kolay adımı izlemen yeterli.</p>
+                            <ol>
+                                <li>www.disneyplus.com’a gidip hesabına giriş yap</li>
+                                <li>Profilini seç</li>
+                                <li>Hesap bölümünü seç</li>
+                                <li>Üyeliği İptal Et’i seç</li>
+                                <li>İptal İşlemini Tamamla’yı seçerek onayla</li>
+                            </ol>
+                            <p class="lead">Daha fazla bilgi için <span><a
+                                        href="https://help.disneyplus.com/csp?id=csp_article_content&article=cancel"
+                                        style="color: #fff; text-decoration: underline; font-weight: bold;">buraya</a></span>
+                                tıkla.</p>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </section>
+        <!-- Section D -->
+        <section id="home__d" class="text-center bg-secondary">
+            <div class="container">
+                <h2 class="section-title">En tus dispositivos favoritos</h2>
+                <div class="disney__devices">
+                    <div>
+                        <ul>
+                            <li><img src="./public/img/tv.png" alt="tv.png"></li>
+                            <li>
+                                <h3>TV</h3>
+                            </li>
+                            <li>
+                                <p class="lead">Amazon Fire TV Android TV Apple TV Beko Chromecast Hisense LG
+                                    Panasonic Samsung</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><img src="./public/img/laptop.png" alt="laptop.png"></li>
+                            <li>
+                                <h3>PC y Laptop</h3>
+                            </li>
+                            <li>
+                                <p class="lead">Chrome OS MacOS Windows PC</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><img src="./public/img/phone.png" alt="phone.png"></li>
+                            <li>
+                                <h3>Celular y Tablet</h3>
+                            </li>
+                            <li>
+                                <p class="lead">Amazon Fire Tablet, Android Celular, iPhone, iPad</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><img src="./public/img/gamepad.png" alt="gamepad.png"></li>
+                            <li>
+                                <h3>Consolas de videojuegos</h3>
+                            </li>
+                            <li>
+                                <p class="lead">PS4 PS5 Xbox One Xbox Series X Xbox Series S</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--<p class="text-small">El servicio Disney+ es comercializado por WDC (MEXICO), S. DE R.L. DE C.V. Periférico Sur 3299, Piso 11, Colonia Fuentes del Pedregal, Alcaldía Tlalpan, 14140, CDMX y número de RFC WME920221837.</p>-->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer-main" class="text-center bg-secondary">
+        <div class="container">
+            <img src="./public/img/logo.svg" alt="" class="footer-brand">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <div class="language-select">
+                        <label for="language">
+                            <svg class="global" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 710 724">
+                                <defs></defs>
+                                <path class="cls-1"
+                                    d="M347.2,92.13a273.81,273.81,0,1,1-106.93,21.58A273,273,0,0,1,347.2,92.13m0-33c-170,0-307.74,137.79-307.74,307.75S177.24,674.62,347.2,674.62,655,536.84,655,366.88,517.17,59.13,347.2,59.13Z">
+                                </path>
+                                <path class="cls-2" d="M373.5,77.5s108,59,108,297c0,220-116,283-116,283"></path>
+                                <path class="cls-2" d="M325.91,77.5S210,136.5,210,374.5c0,220,124.5,283,124.5,283">
+                                </path>
+                                <path class="cls-2" d="M100,211s111,24,247,24c134,0,239-24,239-24"></path>
+                                <path class="cls-2" d="M586,521s-111-24-247-24c-134,0-239,24-239,24"></path>
+                                <line class="cls-2" x1="59" y1="367" x2="635" y2="367"></line>
+                            </svg>
+                            <select id="language">
+                                <option value="English">English</option>
+                                <option value="Türkçe" selected>Español</option>
+                            </select>
+                            <svg class="down" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 48 48">
+                                <rect width="48" height="48" fill="none"></rect>
+                                <path
+                                    d="M36.63,18.37a1.37,1.37,0,0,1,2.15.37,1.7,1.7,0,0,1-.3,2.06L25.4,32.64a1.37,1.37,0,0,1-1.85,0l-13-11.84a1.71,1.71,0,0,1-.29-2.06,1.37,1.37,0,0,1,2.15-.37l12.11,11ZM24.25,31.42a.38.38,0,0,1,.46,0l-.23-.21ZM11.71,19.55s0,.06,0,0Zm25.61,0h0Z">
+                                </path>
+                            </svg>
+                        </label>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://disneytermsofuse.com/spanish-latin-american/">
+                        <span>Términos de uso</span>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://www.disneyplus.com/es-419/legal/pol%C3%ADtica-de-privacidad">
+                        <span>Pólitica de privacidad</span>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://preferences-mgr.trustarc.com/?pid=disney01&aid=disneyplus01&type=disneyplus">
+                        <span>Publicidad personalizada</span>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://preferences-mgr.trustarc.com/?pid=disney01&aid=disneyplus01&type=disneyplus">
+                        <span>Dispositivos compatibles</span>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://help.disneyplus.com/es-MX/?utm_source=disneyplus&utm_medium=web&utm_campaign=unauthenticated-site-footer&utm_content=home-page">
+                        <span>Ayuda</span>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="https://help.disneyplus.com/es-MX/article/disneyplus-introduction/?utm_source=disneyplus&utm_medium=web&utm_campaign=unauthenticated-site-footer&utm_content=introduction">
+                        <span>Acerca de Disney+</span>
+                    </a>
+                </li>
+                <!--<li class="list-group-item">
+                    <a href="#">
+                        <span>Yardım Merkezi</span>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">
+                        <span>Hakkımızda</span>
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="#">
+                        <span>Tercihleri Yönetin</span>
+                    </a>
+                </li>-->
+            </ul>
+            <p class="text-small">
+                &copy; © 2024 Disney y su familia de compañías afiliadas. Todos los derechos reservados.<br>
+                La programación del contenido deportivo difiere según el plan. Disney+ requiere una suscripción y ser mayor de 18 años. Contenidos sujetos a disponibilidad.
+            </p>
+        </div>
+    </footer>
+    
+
+    <script>
+        document.getElementById('btn1').onclick = function() {
+            window.location.href = '/signIn.html';
+        }
+    </script>
+   
+</body>
+
+</html>

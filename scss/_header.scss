@@ -1,0 +1,116 @@
+#header {
+    &-main {
+        background: $bg-1 no-repeat center / cover;
+        height: 70vh;
+        padding: 10rem 2rem 5rem;
+
+        .navbar {
+            &-nav {
+                display: flex;
+                align-items: center;
+                position: fixed;
+                left: 0rem;
+                top: 0;
+                width: 100%;
+                padding: 1rem 1rem 0;
+
+                .nav-item {
+
+                    &:first-child {
+                        margin-right: auto;
+                    }
+
+                    &:not(.active) {
+                        visibility: hidden;
+                    }
+                }
+
+            }
+
+            &-brand {
+                width: 80px;
+            }
+        }
+
+        .header__content {
+
+            display: flex;
+            flex-direction: column;
+
+
+            &-form {
+                display: grid;
+                gap: 0.5rem;
+                margin-bottom: 1rem;
+
+                .form {
+                    &-control {
+                        background-color: $medium-color;
+                        border: 1px solid $medium-color;
+                        border-radius: 4px;
+                        color: $light-color;
+                        padding: 0.8rem;
+                        font-size: 1rem;
+                        outline: none;
+
+                        &:focus {
+                            border: 1px solid $light-color;
+                        }
+                    }
+
+                    &-button {
+                        margin: 0;
+                        font-size: 1rem;
+                        padding: 0.8rem;
+                    }
+                }
+            }
+
+            &-down {
+                display: block;
+                margin: auto;
+                width: 36px;
+                height: 36px;
+                cursor: pointer;
+                animation: down-button 1.3s linear infinite;
+
+                a {
+                    svg {
+                        fill: $light-color;
+
+                        &:hover {
+
+                            fill: lighten($light-color, 20%);
+                        }
+                    }
+                }
+
+                @keyframes down-button {
+                    0% {
+                        transform: translateY(0);
+                    }
+
+                    20% {
+                        transform: translateY(-5px);
+                    }
+
+                    40% {
+                        transform: translateY(-10px);
+                    }
+
+                    60% {
+                        transform: translateY(0);
+                    }
+
+                    80% {
+                        transform: translateY(-5px);
+                    }
+
+                    100% {
+                        transform: translateY(0);
+                    }
+                }
+            }
+        }
+    }
+}
